@@ -1,0 +1,18 @@
+
+%btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 5px 0 0;
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: lighten($mountains-2-hex, 10%);
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: $mountains-1-hex;
+    color: #333;
+}
